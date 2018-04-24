@@ -10,7 +10,7 @@
 ## Usage
 
 ```
-# install grant if you don't have
+# install grunt if you don't have
 npm install -g grunt-cli
 
 # npm install
