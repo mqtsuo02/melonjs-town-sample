@@ -10,7 +10,7 @@ game.PlayerEntity = me.Entity.extend({
     this._super(me.Entity, "init", [x, y, settings])
 
     // set the default horizontal & vertical speed (accel vector)
-    this.body.setVelocity(1, 1)
+    this.body.setVelocity(1.5, 1.5)
 
     // define a basic walking animation (using all frames)
     this.renderable.addAnimation("leftWalk", [3, 4])
