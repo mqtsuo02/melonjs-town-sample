@@ -26,6 +26,9 @@ game.PlayerEntity = me.Entity.extend({
 
     // set the standing animation as default
     this.renderable.setCurrentAnimation("stand")
+
+    this.body.gravity = 0
+
   },
 
   /**
@@ -66,7 +69,7 @@ game.PlayerEntity = me.Entity.extend({
       }
     } else {
       this.body.vel.x = 0
-      this.body.vel.y = -1
+      this.body.vel.y = 0
 
       // change to the standing animation
       // this.renderable.setCurrentAnimation("stand")
