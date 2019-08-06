@@ -4,6 +4,8 @@
 
 ## Description
 
+![readme-image](./readme-image.png)
+
 * sample project using [melonjs/boilerplate](https://github.com/melonjs/boilerplate)
 * assets from [capsulemonsters/newbark](https://github.com/capsulemonsters/newbark)
 
